@@ -29,7 +29,7 @@
             </div>
         </nav>
         
-        <form:form class="form" action="/procesa/login" method="POST" modelAttribute="loginUsuario">
+        <form:form class="form" action="/usuarios/procesa/login" method="POST" modelAttribute="loginUsuario">
             <div>
                 <form:label path="correoLogin" class="form-label">Correo:</form:label>
                 <form:input path="correoLogin" class="form-control w-75"/>
